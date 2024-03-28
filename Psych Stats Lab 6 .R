@@ -32,3 +32,10 @@
         > model_7 <- lm(Marijan_01 ~ Age_midpt*(X_PRACE2 + X_HISPANC) + I(Age_midpt^2)*(X_PRACE2 + X_HISPANC) + X_PRACE2 + X_HISPANC + EDUCA + GENHLTH + LSATISFY, data = brfss_marijan)
         > summary(model_7) 
         
+No Lab Partner today, Rafeal did not come to class. After re writing the code from Lab 5, I was able to complete the rest of the code for Lab 6 and 
+starting looking at my own interactions. A interaction I wanted to focus on was how "General Health" and "Life Satification" interacts with the other three varibales, (Race, Hispanic, and Education) for Marijuana use. 
+For General Health it seemed that the more people use Marijuana the worst their health is and the better they rate their health the less Marijuana they will be using. This isn't a direct correlation
+however it is good to know for example, if your a substance abuse counselor, that for your clients who use Marijuana they will be more likely to have health issues which can effect how you engage them in counseling.
+For Life satifaction there were a statitcally signifant amount of responses for satified and also a statitically signifant amount of responses for i dont know and refused responses. Before running the code I assumed that 
+more satified people will be using marijuana more than the not satified people due to the euphoric effects of the drug. However the data shows that the responeses for Marijuana users and their life satification most users
+did not answer or did not know which shows that there are most likelty other things interacting with satification beside Marijuana use that have an effect on people's answers. 
